@@ -15,6 +15,7 @@ RUN apt-get update -y && \
     add-apt-repository ppa:deadsnakes/ppa && \
     apt-get install --no-install-recommends -y \
         ca-certificates \
+        build-essential \
         curl \
         git \
         python3.11 \
